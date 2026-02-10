@@ -90,14 +90,14 @@ def extract_model_updates_with_llm(content, api_key, endpoint, deployment):
     
     client = AzureOpenAI(
         api_key=api_key,
-        api_version="2024-02-15-preview",
+        api_version="2024-12-01-preview",
         azure_endpoint=endpoint
     )
     
     # Limit content if still too large (safety measure)
-    # Most LLMs have token limits, so we need to be careful
-    # Note: Character to token ratio varies by content type and language
-    max_chars = 12000  # Conservative estimate for ~3000 tokens
+    # Most modern LLMs support 128k token context windows
+    # Note: Character to token ratio is roughly ~4 chars per token
+    max_chars = 480000  # ~120k tokens, leaving room for system prompt and completion
     if len(content) > max_chars:
         print(f"Content is {len(content)} chars, truncating to {max_chars} chars")
         content = content[:max_chars]
@@ -131,7 +131,7 @@ Return ONLY valid JSON, no additional text.
             {"role": "user", "content": prompt}
         ],
         temperature=0.3,
-        max_tokens=2000
+        max_completion_tokens=2000
     )
     
     result_text = response.choices[0].message.content
