@@ -2,7 +2,7 @@
 """Test script to validate the RSS feed generator without API calls."""
 
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from xml.etree import ElementTree as ET
 
 
@@ -38,7 +38,7 @@ def test_generate_rss_feed():
                 'title': 'GPT-4 Turbo',
                 'description': 'Advanced language model with improved performance',
                 'link': 'https://example.com/gpt4',
-                'pubDate': datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
+                'pubDate': datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000')
             },
             {
                 'title': 'GPT-3.5',

@@ -67,7 +67,7 @@ Format your response as a JSON array of objects, where each object represents a 
 - link: Use "https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure" as the base link
 - pubDate: Use the current date/time
 
-Here's the page content:
+Here's the page content (truncated to 8000 characters to fit within token limits while preserving key information):
 
 {content[:8000]}
 
@@ -146,9 +146,9 @@ def generate_rss_feed(models, output_file):
         else:
             item_pub_date.text = datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000')
         
-        # Generate a unique GUID for each item based on title
+        # Generate a unique GUID for each item based on title using SHA256
         item_guid = SubElement(item, 'guid', isPermaLink='false')
-        guid_hash = hashlib.md5(model_info.get('title', '').encode()).hexdigest()
+        guid_hash = hashlib.sha256(model_info.get('title', '').encode()).hexdigest()[:32]
         item_guid.text = f"azure-foundry-model-{guid_hash}"
     
     # Pretty print XML

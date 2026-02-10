@@ -5,20 +5,20 @@
     <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
     <description>Latest updates on Azure AI Foundry models sold directly by Azure</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Feb 2026 11:15:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 11:17:06 +0000</lastBuildDate>
     <item>
       <title>GPT-4 Turbo</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
       <description>Advanced language model with improved performance and extended context window.</description>
-      <pubDate>Tue, 10 Feb 2026 11:15:52 +0000</pubDate>
-      <guid isPermaLink="false">azure-foundry-model-4fe2388784a36c553474dc3cacfdad28</guid>
+      <pubDate>Tue, 10 Feb 2026 11:17:06 +0000</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-1d800cbcf1180be88147a031bb760bb7</guid>
     </item>
     <item>
       <title>GPT-3.5 Turbo</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
       <description>Fast and efficient language model suitable for most conversational tasks.</description>
-      <pubDate>Tue, 10 Feb 2026 11:15:52 +0000</pubDate>
-      <guid isPermaLink="false">azure-foundry-model-ce3ae04b3cfb8c7dbb6556378232fff2</guid>
+      <pubDate>Tue, 10 Feb 2026 11:17:06 +0000</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-86ea6fab76d8164b0f902570708ab6b2</guid>
     </item>
   </channel>
 </rss>
