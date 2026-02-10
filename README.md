@@ -57,9 +57,12 @@ uv run generate_rss_feed.py
 Alternatively, using pip:
 
 ```bash
-# Install dependencies
+# Install dependencies from scripts directory
 cd scripts
-pip install -r pyproject.toml  # or manually: pip install requests openai beautifulsoup4
+pip install requests openai beautifulsoup4
+
+# Or install the project in editable mode
+pip install -e .
 
 # Set environment variables
 export AZURE_OPENAI_API_KEY="your-key"
