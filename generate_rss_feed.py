@@ -8,7 +8,7 @@ and generates an RSS feed.
 import os
 import sys
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom import minidom
 import hashlib
@@ -125,7 +125,7 @@ def generate_rss_feed(models, output_file):
     language.text = 'en-us'
     
     last_build_date = SubElement(channel, 'lastBuildDate')
-    last_build_date.text = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
+    last_build_date.text = datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000')
     
     # Add items for each model
     for model_info in models:
@@ -144,7 +144,7 @@ def generate_rss_feed(models, output_file):
         if 'pubDate' in model_info:
             item_pub_date.text = model_info['pubDate']
         else:
-            item_pub_date.text = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
+            item_pub_date.text = datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000')
         
         # Generate a unique GUID for each item based on title
         item_guid = SubElement(item, 'guid', isPermaLink='false')
@@ -193,7 +193,7 @@ def main():
                 'title': 'No updates available',
                 'description': 'Failed to extract model information from the page.',
                 'link': url,
-                'pubDate': datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
+                'pubDate': datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000')
             }]
         
         # Generate RSS feed
