@@ -19,27 +19,69 @@ from bs4 import BeautifulSoup
 
 
 def fetch_page_content(url):
-    """Fetch the content of the Microsoft Learn page."""
+    """Fetch and parse relevant content from the Microsoft Learn page."""
     print(f"Fetching content from: {url}")
     response = requests.get(url, timeout=30)
     response.raise_for_status()
     
-    # Parse HTML and extract main content
+    # Parse HTML
     soup = BeautifulSoup(response.text, 'html.parser')
     
-    # Remove script and style elements
-    for script in soup(["script", "style"]):
-        script.decompose()
+    # Extract relevant sections from Microsoft Learn pages
+    relevant_content = []
     
-    # Get text content
-    text = soup.get_text()
+    # Look for main content area (Microsoft Learn uses specific selectors)
+    main_content = soup.find('main') or soup.find('article') or soup.find(id='main-content')
+    if main_content:
+        # Remove script, style, nav, and other non-content elements
+        for element in main_content.find_all(['script', 'style', 'nav', 'header', 'footer', 'aside']):
+            element.decompose()
+        
+        # Extract headings and their associated content
+        for heading in main_content.find_all(['h1', 'h2', 'h3', 'h4']):
+            heading_text = heading.get_text(strip=True)
+            if heading_text:
+                relevant_content.append(f"\n## {heading_text}\n")
+            
+            # Get content after heading until next heading
+            for sibling in heading.find_next_siblings():
+                if sibling.name in ['h1', 'h2', 'h3', 'h4']:
+                    break
+                if sibling.name in ['p', 'ul', 'ol', 'table', 'div']:
+                    text = sibling.get_text(separator=' ', strip=True)
+                    if text:
+                        relevant_content.append(text)
+        
+        # Extract tables specifically (often contain model information)
+        tables = main_content.find_all('table')
+        for idx, table in enumerate(tables):
+            relevant_content.append(f"\n### Table {idx + 1}\n")
+            # Extract table headers
+            headers = [th.get_text(strip=True) for th in table.find_all('th')]
+            if headers:
+                relevant_content.append(" | ".join(headers))
+            
+            # Extract table rows
+            for row in table.find_all('tr'):
+                cells = [td.get_text(strip=True) for td in row.find_all('td')]
+                if cells:
+                    relevant_content.append(" | ".join(cells))
+    else:
+        # Fallback: extract all text if we can't find main content
+        for script in soup(['script', 'style', 'nav', 'header', 'footer', 'aside']):
+            script.decompose()
+        text = soup.get_text(separator=' ', strip=True)
+        relevant_content.append(text)
     
-    # Clean up whitespace
-    lines = (line.strip() for line in text.splitlines())
-    chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-    text = '\n'.join(chunk for chunk in chunks if chunk)
+    # Join all content
+    content = '\n'.join(relevant_content)
     
-    return text
+    # Clean up excessive whitespace
+    lines = [line.strip() for line in content.split('\n') if line.strip()]
+    content = '\n'.join(lines)
+    
+    print(f"Extracted {len(content)} characters of relevant content")
+    return content
 
 
 def extract_model_updates_with_llm(content, api_key, endpoint, deployment):
@@ -51,6 +93,13 @@ def extract_model_updates_with_llm(content, api_key, endpoint, deployment):
         api_version="2024-02-15-preview",
         azure_endpoint=endpoint
     )
+    
+    # Limit content if still too large (safety measure)
+    # Most LLMs have token limits, so we need to be careful
+    max_chars = 12000  # Approximately 3000 tokens
+    if len(content) > max_chars:
+        print(f"Content is {len(content)} chars, truncating to {max_chars} chars")
+        content = content[:max_chars]
     
     prompt = f"""You are analyzing a Microsoft Learn documentation page about Azure AI Foundry models.
 
@@ -67,9 +116,9 @@ Format your response as a JSON array of objects, where each object represents a 
 - link: Use "https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure" as the base link
 - pubDate: Use the current date/time
 
-Here's the page content (truncated to 8000 characters to fit within token limits while preserving key information):
+Here's the relevant page content (structured with headings and tables):
 
-{content[:8000]}
+{content}
 
 Return ONLY valid JSON, no additional text.
 """
