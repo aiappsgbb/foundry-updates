@@ -30,18 +30,36 @@ You can manually trigger the workflow from the GitHub Actions tab using the "Run
 
 ## Files
 
-- `generate_rss_feed.py`: Python script that fetches the page, processes it with Azure OpenAI, and generates the RSS feed
-- `requirements.txt`: Python dependencies
+- `scripts/generate_rss_feed.py`: Python script that fetches the page, processes it with Azure OpenAI, and generates the RSS feed
+- `scripts/test_generate_rss.py`: Test script to validate the RSS feed generator
+- `scripts/pyproject.toml`: Python dependencies and project configuration (using uv)
 - `.github/workflows/update-rss-feed.yml`: GitHub Actions workflow configuration
 - `foundry-models.rss`: Generated RSS feed (updated automatically)
 
 ## Local Development
 
-To run the script locally:
+To run the script locally using uv:
+
+```bash
+# Install uv if you haven't already
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Set environment variables
+export AZURE_OPENAI_API_KEY="your-key"
+export AZURE_OPENAI_ENDPOINT="your-endpoint"
+export AZURE_OPENAI_DEPLOYMENT="gpt-4"
+
+# Run the script
+cd scripts
+uv run generate_rss_feed.py
+```
+
+Alternatively, using pip:
 
 ```bash
 # Install dependencies
-pip install -r requirements.txt
+cd scripts
+pip install -r pyproject.toml  # or manually: pip install requests openai beautifulsoup4
 
 # Set environment variables
 export AZURE_OPENAI_API_KEY="your-key"

@@ -219,7 +219,11 @@ def main():
     """Main function to orchestrate RSS feed generation."""
     # Configuration
     url = "https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure?view=foundry&preserve-view=true&tabs=global-standard-aoai%2Cglobal-standard&pivots=azure-openai"
-    output_file = "foundry-models.rss"
+    
+    # Output to repository root (parent directory if running from scripts folder)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    repo_root = os.path.dirname(script_dir) if os.path.basename(script_dir) == 'scripts' else script_dir
+    output_file = os.path.join(repo_root, "foundry-models.rss")
     
     # Get Azure OpenAI credentials from environment
     api_key = os.environ.get('AZURE_OPENAI_API_KEY')
