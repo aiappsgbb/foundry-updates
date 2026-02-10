@@ -41,7 +41,7 @@ def fetch_page_content(url):
         for heading in main_content.find_all(['h1', 'h2', 'h3', 'h4']):
             heading_text = heading.get_text(strip=True)
             if heading_text:
-                relevant_content.append(f"\n## {heading_text}\n")
+                relevant_content.append(f"\nHEADING: {heading_text}\n")
             
             # Get content after heading until next heading
             for sibling in heading.find_next_siblings():
@@ -55,7 +55,7 @@ def fetch_page_content(url):
         # Extract tables specifically (often contain model information)
         tables = main_content.find_all('table')
         for idx, table in enumerate(tables):
-            relevant_content.append(f"\n### Table {idx + 1}\n")
+            relevant_content.append(f"\nTABLE {idx + 1}:\n")
             # Extract table headers
             headers = [th.get_text(strip=True) for th in table.find_all('th')]
             if headers:
@@ -96,7 +96,8 @@ def extract_model_updates_with_llm(content, api_key, endpoint, deployment):
     
     # Limit content if still too large (safety measure)
     # Most LLMs have token limits, so we need to be careful
-    max_chars = 12000  # Approximately 3000 tokens
+    # Note: Character to token ratio varies by content type and language
+    max_chars = 12000  # Conservative estimate for ~3000 tokens
     if len(content) > max_chars:
         print(f"Content is {len(content)} chars, truncating to {max_chars} chars")
         content = content[:max_chars]
@@ -116,7 +117,7 @@ Format your response as a JSON array of objects, where each object represents a 
 - link: Use "https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure" as the base link
 - pubDate: Use the current date/time
 
-Here's the relevant page content (structured with headings and tables):
+Here's the relevant page content (structured with headings and tables in plain text format):
 
 {content}
 

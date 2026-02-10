@@ -36,7 +36,6 @@ def test_fetch_page_content():
         """
         
         # Test the parsing logic directly with BeautifulSoup
-        from bs4 import BeautifulSoup
         soup = BeautifulSoup(test_html, 'html.parser')
         
         # Verify main content is found
