@@ -132,6 +132,33 @@ def test_generate_rss_feed():
         return False
 
 
+def test_llm_parameters():
+    """Test that the Azure OpenAI call uses correct parameters."""
+    print("Testing LLM parameters...")
+    try:
+        import inspect
+        from generate_rss_feed import extract_model_updates_with_llm
+        source = inspect.getsource(extract_model_updates_with_llm)
+
+        # Verify max_completion_tokens is used instead of max_tokens
+        assert "max_completion_tokens" in source, "Should use max_completion_tokens parameter"
+        assert "max_tokens=" not in source, "Should not use deprecated max_tokens parameter"
+
+        # Verify content limit allows up to 128k tokens (~480k chars)
+        assert "max_chars = 480000" in source, "Should allow up to ~120k tokens of input"
+
+        # Verify API version supports max_completion_tokens (>= 2024-10-01)
+        assert "2024-02-15-preview" not in source, "Should not use old API version"
+
+        print("✓ LLM parameters are correct")
+        return True
+    except Exception as e:
+        print(f"✗ LLM parameters test failed: {e}")
+        import traceback
+        traceback.print_exc()
+        return False
+
+
 def test_imports():
     """Test that all required modules can be imported."""
     print("Testing imports...")
@@ -154,6 +181,7 @@ def main():
     results.append(("Imports", test_imports()))
     results.append(("Fetch Page", test_fetch_page_content()))
     results.append(("Generate RSS", test_generate_rss_feed()))
+    results.append(("LLM Parameters", test_llm_parameters()))
     
     print("\n" + "="*50)
     print("Test Results:")
