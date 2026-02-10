@@ -131,7 +131,7 @@ Return ONLY valid JSON, no additional text.
             {"role": "user", "content": prompt}
         ],
         temperature=0.3,
-        max_completion_tokens=2000
+        max_completion_tokens=16000
     )
     
     result_text = response.choices[0].message.content
