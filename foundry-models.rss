@@ -5,13 +5,685 @@
     <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
     <description>Latest updates on Azure AI Foundry models sold directly by Azure</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Feb 2026 03:08:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 03:07:54 +0000</lastBuildDate>
     <item>
-      <title>No updates available</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure?view=foundry&amp;preserve-view=true&amp;tabs=global-standard-aoai%2Cglobal-standard&amp;pivots=azure-openai</link>
-      <description>Failed to extract model information from the page.</description>
-      <pubDate>Thu, 26 Feb 2026 03:08:47 +0000</pubDate>
-      <guid isPermaLink="false">azure-foundry-model-60078d9c6a45518ba51152a8fe36d81d</guid>
+      <title>gpt-5.3-codex</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-5.3 Codex is a reasoning-capable model optimized for coding workflows and agentic tool use. It supports text and image processing and is tuned for Codex CLI and the Codex VS Code extension.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-a3da4ff8f68df4787285738de34418d0</guid>
+    </item>
+    <item>
+      <title>gpt-5.2-codex</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-5.2 Codex is a reasoning model designed for coding and tool-driven workflows via the Responses API. It supports structured outputs, multimodal (text+image) processing, and parallel tool calling, and is optimized for Codex CLI and the Codex VS Code extension.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-8ebfb0eb99fdb07f6037aebdbedf8336</guid>
+    </item>
+    <item>
+      <title>gpt-5.2</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-5.2 is a large-context reasoning model available through both Chat Completions and Responses APIs. It supports structured outputs, text and image processing, and function/tool calling including parallel tool calling.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-131e2083b68bde4fe879efc38ed9651b</guid>
+    </item>
+    <item>
+      <title>gpt-5.2-chat</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-5.2-chat is a preview chat-focused model available via Chat Completions and Responses APIs. It supports structured outputs and tool/function calling including parallel tool calling, with a smaller context window than the main GPT-5.2 reasoning model.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-031f63091b77ba624a76e5179f39d926</guid>
+    </item>
+    <item>
+      <title>gpt-5.1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-5.1 is a large-context reasoning model available via Chat Completions and Responses APIs. It supports structured outputs, multimodal text+image processing, and function/tool calling including parallel tool calling.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-e7ee8b015b531feb8b6b0409f21aca9d</guid>
+    </item>
+    <item>
+      <title>gpt-5.1-chat</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-5.1-chat is a preview reasoning-enabled chat model available via Chat Completions and Responses APIs. It includes built-in reasoning behavior and does not support some non-reasoning parameters (for example, temperature).</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-d454bc0ae86c75d11befa6da9e360f11</guid>
+    </item>
+    <item>
+      <title>gpt-5.1-codex</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-5.1 Codex is a Responses-API-only model optimized for coding and tool use. It supports structured outputs, text and image processing, and function/tool calling including parallel tool calling, and is tuned for Codex CLI and the Codex VS Code extension.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-c5f9e7e93624823213aa93017d0d970c</guid>
+    </item>
+    <item>
+      <title>gpt-5.1-codex-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-5.1 Codex Mini is a Responses-API-only Codex-optimized model intended for coding and tool-driven workflows. It supports structured outputs, multimodal text+image processing, and function/tool calling including parallel tool calling.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-312f75b4c11f3fec13b8722cba17a3cb</guid>
+    </item>
+    <item>
+      <title>gpt-5.1-codex-max</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-5.1 Codex Max is a Responses-API-only Codex-optimized model with expanded reasoning controls. It adds support for setting reasoning_effort to xhigh and is optimized for Codex CLI and the Codex VS Code extension.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-d8eef280738090c0e91e0a38540e77d5</guid>
+    </item>
+    <item>
+      <title>gpt-5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-5 is a large-context reasoning model available via Chat Completions and Responses APIs. It supports structured outputs, multimodal text+image processing, and function/tool calling including parallel tool calling.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-b0a9d642d12f553129c39513f7ce2605</guid>
+    </item>
+    <item>
+      <title>gpt-5-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-5 Mini is a smaller, cost/performance-oriented GPT-5 reasoning model with the same large context window class. It supports structured outputs, multimodal text+image processing, and function/tool calling including parallel tool calling.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-f6a6fd968767a7728d6fed4ccc5a4b44</guid>
+    </item>
+    <item>
+      <title>gpt-5-nano</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-5 Nano is the smallest GPT-5 reasoning model variant intended for efficiency. It supports structured outputs, multimodal text+image processing, and function/tool calling including parallel tool calling.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-6c13251734cdef307034283afce37670</guid>
+    </item>
+    <item>
+      <title>gpt-5-chat</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-5-chat is a preview chat model that accepts text and image input and produces text output. A later preview version adds a significant enhancement focused on emotional intelligence and mental health capabilities.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-f1f599355d70a14ab8e26c2c4999c501</guid>
+    </item>
+    <item>
+      <title>gpt-5-codex</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-5 Codex is a Responses-API-only model optimized for coding workflows. It supports structured outputs, text and image processing, and function/tool calling including parallel tool calling, and is tuned for Codex CLI and the Codex VS Code extension.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-87061d3552d5a1352828036c1ab64186</guid>
+    </item>
+    <item>
+      <title>gpt-5-pro</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-5 Pro is a high-capability reasoning model available via the Responses API. It supports structured outputs, multimodal text+image processing, and function/tool use for advanced workflows.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-6a4dbaef80fe3414645d651d9e98c09d</guid>
+    </item>
+    <item>
+      <title>gpt-oss-120b</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-oss-120b is an open-weight reasoning model in preview for text-in/text-out scenarios. It supports streaming, function calling, and structured outputs, and can be deployed (with a Foundry project requirement) or used via managed compute.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-82386b4b368b0ab88f50810910bcf9fa</guid>
+    </item>
+    <item>
+      <title>gpt-oss-20b</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-oss-20b is an open-weight reasoning model in preview for text-in/text-out use cases. It supports streaming, function calling, and structured outputs, and is available via managed compute and Foundry Local.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-ca1fe4e9c1499d821397771bdaee427b</guid>
+    </item>
+    <item>
+      <title>gpt-4.1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-4.1 is a multimodal model that accepts text and images and outputs text via Chat Completions and Responses APIs. It supports streaming, function calling, and structured outputs (in Chat Completions), with a very large context window.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-5c51a66b0aff2f609fae358c5c9e6f71</guid>
+    </item>
+    <item>
+      <title>gpt-4.1-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-4.1 Mini is a smaller multimodal GPT-4.1 variant for text+image input and text output. It supports Chat Completions and Responses APIs, streaming, function calling, and structured outputs (in Chat Completions).</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-13a647d426a063cdece6acfdf6447f89</guid>
+    </item>
+    <item>
+      <title>gpt-4.1-nano</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-4.1 Nano is the smallest GPT-4.1 series multimodal model for text+image input and text output. It supports Chat Completions and Responses APIs, streaming, function calling, and structured outputs (in Chat Completions).</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-bf2bf007c5843c5bbeb3cbc949f956af</guid>
+    </item>
+    <item>
+      <title>computer-use-preview</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>computer-use-preview is an experimental model trained to work with the Responses API computer use tool. It can control mouse/keyboard via third-party libraries and uses screenshots as image input for environment context.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-d16eb0d6f0bfb1c474d3a56a009c81b8</guid>
+    </item>
+    <item>
+      <title>codex-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>codex-mini is a fine-tuned version of o4-mini optimized for coding-oriented reasoning and tool use. It is available via the Responses API and supports structured outputs, text and image processing, and functions/tools.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-9a92228e38552894f4c6b7cf3ff489e0</guid>
+    </item>
+    <item>
+      <title>o3-pro</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>o3-pro is an advanced reasoning model designed for complex problem solving with increased focus and capability. It is available via the Responses API and supports structured outputs, multimodal processing, and functions/tools.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-109f0072c1fda3cc23dcaa385204299c</guid>
+    </item>
+    <item>
+      <title>o4-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>o4-mini is a newer reasoning model offering enhanced reasoning abilities for tasks like science, coding, and math. It supports Chat Completions and Responses APIs, structured outputs, multimodal processing, and functions/tools.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-9056e3300ca806c040a2ae2fc7dcc3ef</guid>
+    </item>
+    <item>
+      <title>o3</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>o3 is a newer reasoning model with enhanced reasoning abilities and support for parallel tool calling. It supports Chat Completions and Responses APIs, structured outputs, multimodal processing, and functions/tools.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-de2d91dc0a2580414e9a70f7dfc76af7</guid>
+    </item>
+    <item>
+      <title>o3-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>o3-mini is a smaller reasoning model focused on enhanced reasoning with text-only processing. It supports structured outputs and functions/tools for efficient problem-solving workflows.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-dfc325305b0caf806366e2a01893c25a</guid>
+    </item>
+    <item>
+      <title>o1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>o1 is a reasoning model with enhanced problem-solving capability and multimodal text+image processing. It supports structured outputs and functions/tools for tool-augmented reasoning tasks.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-2352da7280f1decc3acf1ba84eb945c9</guid>
+    </item>
+    <item>
+      <title>o1-preview</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>o1-preview is an older preview version of the o1 reasoning model line. It remains available only to customers who were granted access as part of the original limited access release.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-d6bbfa6dd181a9fd16f8ce30aa1ed0c7</guid>
+    </item>
+    <item>
+      <title>o1-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>o1-mini is a faster and more cost-efficient o1-series reasoning option, positioned as ideal for coding tasks that need speed and lower resource use. Global Standard deployment is available by default, while standard (regional) deployments are limited to select customers from the original limited access release.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-973c6eb0e0af7b3d4ccf50a6de40e431</guid>
+    </item>
+    <item>
+      <title>gpt-4o</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-4o (Omni) is a multimodal model that integrates text and images in a single model for improved human-computer interaction. It supports structured outputs, JSON mode, and parallel function calling, with strong non-English and vision performance.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-a2a69af70d1b9be70f1abf8218492c5e</guid>
+    </item>
+    <item>
+      <title>gpt-4o-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-4o mini is a fast, inexpensive multimodal model positioned as a replacement for GPT-3.5 Turbo series models. It supports text and image processing, JSON mode, and parallel function calling.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-8a43428062692d369599bd00272fd529</guid>
+    </item>
+    <item>
+      <title>gpt-4 (turbo-2024-04-09)</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-4 Turbo with Vision is a generally available GPT-4 Turbo model for the Chat Completions API. It replaces earlier GPT-4 preview models and supports vision input, with feature availability varying by input method and deployment type.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-792161f1d276b0b785877640a05776b6</guid>
+    </item>
+    <item>
+      <title>text-embedding-3-large</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>text-embedding-3-large is the latest and most capable third-generation embeddings model for converting text into vectors for similarity and retrieval. It supports a dimensions parameter to reduce embedding size for cost/performance control.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-dbb48b3aa923fc46689511082d2f8b18</guid>
+    </item>
+    <item>
+      <title>text-embedding-3-small</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>text-embedding-3-small is a third-generation embeddings model for text-to-vector conversion with improved multilingual retrieval performance. It supports adjustable embedding dimensionality via a dimensions parameter.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-31a7134a5bdc1c09eb1876abc2c66608</guid>
+    </item>
+    <item>
+      <title>text-embedding-ada-002</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>text-embedding-ada-002 is an embeddings model used to convert text into numerical vectors for similarity and retrieval. The documentation notes you cannot upgrade between embeddings models; migrating to newer embedding models requires regenerating embeddings.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-8b70dfe8bb8e72e918c0b8551d6457bd</guid>
+    </item>
+    <item>
+      <title>gpt-image-1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-image-1 is a GPT-image-1 series image generation model that creates images from text prompts. It is in limited access preview and is deployed in select Global Standard regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-68199b4ce3134fb82a657cac986374a4</guid>
+    </item>
+    <item>
+      <title>gpt-image-1-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-image-1-mini is a GPT-image-1 series image generation model for generating images from text prompts. It is in limited access preview and is available in select Global Standard regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-54a6b8550bab9c4dd2950848a9f2262f</guid>
+    </item>
+    <item>
+      <title>gpt-image-1.5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-image-1.5 is a GPT-image series image generation model for creating images from text prompts. It is in limited access preview and is available in select Global Standard regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-2e02161d2494e3384ff7578cc8e1f88a</guid>
+    </item>
+    <item>
+      <title>dall-e-3</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>DALL-E 3 is an image generation model that creates original images from natural language prompts. It is generally available for use with the REST APIs, with region availability including East US, Australia East, and Sweden Central.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-61a3bcef2d140dbfacbe1af0d3e67695</guid>
+    </item>
+    <item>
+      <title>sora</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>Sora is an OpenAI video generation model that can create realistic and imaginative video scenes from text instructions. It is in preview and available in East US 2 and Sweden Central (Global Standard).</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-a4c745facd3a921565e2c12d2db6a402</guid>
+    </item>
+    <item>
+      <title>sora-2</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>sora-2 is a newer Sora video generation model for creating video scenes from text instructions. It is listed as new and is available in preview in East US 2 and Sweden Central (Global Standard).</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-434e9cdac751c74d5cefecd85474bf67</guid>
+    </item>
+    <item>
+      <title>gpt-4o-mini-audio-preview</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-4o-mini-audio-preview is a GPT-4o-family audio preview model for audio and text generation. It supports large token limits and is intended for audio-capable generation scenarios.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-4ba3f0d97afe62e268a0600e758bb615</guid>
+    </item>
+    <item>
+      <title>gpt-4o-audio-preview</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-4o-audio-preview is a GPT-4o-family audio preview model for audio and text generation. It supports large token limits and is part of the GPT-4o audio model family.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-005a2865ed3a28da3abb85cd59188c35</guid>
+    </item>
+    <item>
+      <title>gpt-4o-realtime-preview</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-4o-realtime-preview is a GPT-4o-family preview model for real-time audio processing. It supports low-latency audio interactions and is available in multiple dated versions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-43e2e25d51b56745a812939becdd0b83</guid>
+    </item>
+    <item>
+      <title>gpt-4o-mini-realtime-preview</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-4o-mini-realtime-preview is a GPT-4o mini-family preview model for real-time audio processing. It supports low-latency audio interactions and is part of the GPT-4o audio model family.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-4e4b595be3295654aebdf5ae58666c16</guid>
+    </item>
+    <item>
+      <title>gpt-realtime</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-realtime is a generally available audio model for real-time audio processing. It is part of the realtime/audio model lineup and is listed with a GA date in the documentation.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-b1d8f361296d075d5ca28efe2be4b31c</guid>
+    </item>
+    <item>
+      <title>gpt-realtime-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-realtime-mini is a smaller real-time audio model variant intended for real-time audio processing. It appears in multiple dated versions, indicating iterative updates.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-9ffb3d0bc3568c062b927d277f08d3b5</guid>
+    </item>
+    <item>
+      <title>gpt-realtime-mini-2025-12-15</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-realtime-mini-2025-12-15 is a dated version of the gpt-realtime-mini model for real-time audio processing. The versioning indicates a specific release snapshot for deployments.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-34c65707557d0faa06b752fd2803f9e4</guid>
+    </item>
+    <item>
+      <title>gpt-realtime-1.5-2026-02-23</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-realtime-1.5-2026-02-23 is a newer versioned real-time audio model for real-time audio processing. It is listed as part of the realtime model family with a specific version date.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-a6baa891c5ca5167222c153016714dde</guid>
+    </item>
+    <item>
+      <title>gpt-audio</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-audio is an audio model listed for real-time audio processing within the audio model lineup. It is versioned and appears alongside realtime models, indicating support for audio-centric workloads.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-a6cd9d859eb6300575fbc5aa70477578</guid>
+    </item>
+    <item>
+      <title>gpt-audio-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-audio-mini is a smaller audio model variant in the audio model lineup. It appears in multiple dated versions, indicating iterative updates for audio processing capabilities.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-2036ac4e068d1d14f232ca5274f6cd10</guid>
+    </item>
+    <item>
+      <title>gpt-audio-1.5-2026-02-23</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-audio-1.5-2026-02-23 is a newer versioned audio model in the audio lineup. The documentation lists it as part of the audio models used for audio processing scenarios.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-331bfe6e975832463b45f19431ea6594</guid>
+    </item>
+    <item>
+      <title>whisper</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>Whisper is a general-purpose speech recognition model used for speech-to-text and speech translation via the Audio API. It supports audio file uploads up to 25 MB per request.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-ba7955598f2007bc8cee7329ece0f63e</guid>
+    </item>
+    <item>
+      <title>gpt-4o-transcribe</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-4o-transcribe is a speech-to-text model powered by GPT-4o and exposed via the Audio API. It supports audio file uploads up to 25 MB per request for transcription workloads.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-65c3ce8bf2de62f04e5009515f00e849</guid>
+    </item>
+    <item>
+      <title>gpt-4o-mini-transcribe</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-4o-mini-transcribe is a speech-to-text model powered by GPT-4o mini. It supports audio file uploads up to 25 MB per request for transcription workloads.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-b0f412bcb089db8e74db4057e4dd6ad5</guid>
+    </item>
+    <item>
+      <title>gpt-4o-transcribe-diarize</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-4o-transcribe-diarize is a speech-to-text model with automatic speech recognition features, including diarization-oriented capabilities. It supports audio file uploads up to 25 MB per request.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-1ec35eaf0eee427c48e32d12ce294304</guid>
+    </item>
+    <item>
+      <title>gpt-4o-mini-transcribe-2025-12-15</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-4o-mini-transcribe-2025-12-15 is a versioned speech-to-text model with automatic speech recognition improvements. The documentation highlights improved transcription accuracy and robustness, with a 25 MB audio file limit per request.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-a7fd953f8129d78065a5712139e00acb</guid>
+    </item>
+    <item>
+      <title>tts</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>tts is a preview text-to-speech model optimized for speed. It is used via the Audio API for generating spoken audio from text.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-317e938a489b10da179b9cc1110357cb</guid>
+    </item>
+    <item>
+      <title>tts-hd</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>tts-hd is a preview text-to-speech model optimized for quality. It is used via the Audio API for higher-fidelity speech generation from text.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-3c105615963616a7379b55e9f4b7a25b</guid>
+    </item>
+    <item>
+      <title>gpt-4o-mini-tts</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-4o-mini-tts is a preview text-to-speech model powered by GPT-4o mini. It supports guiding the voice to speak in a specific style or tone for more controllable speech generation.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-5180ac248203ef6982b80f85c9c585a5</guid>
+    </item>
+    <item>
+      <title>gpt-4o-mini-tts-2025-12-15</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-4o-mini-tts-2025-12-15 is a versioned preview text-to-speech model powered by GPT-4o mini. It supports guiding the voice style or tone and provides a fixed version snapshot for deployments.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-e8e1f4ae6827a16922520989412eb1b2</guid>
+    </item>
+    <item>
+      <title>o3-deep-research</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>o3-deep-research is a model listed for use with deep research capabilities. The documentation notes it is currently only available with Foundry Agent Service.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-2ddb3e201c1616b11639b5a38fb38591</guid>
+    </item>
+    <item>
+      <title>model-router</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>model-router is a chat-completion model that routes requests to underlying models based on the prompt and capabilities needed. It supports text and image input, a large context window, and variable max output depending on the routed model.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-22187bd641b0cd629865ec27be215083</guid>
+    </item>
+    <item>
+      <title>FLUX.2-flex</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>FLUX.2-flex is a Black Forest Labs image generation and editing model that accepts text and image prompts and outputs a single image. It emphasizes fine-grained control and supports multi-reference inputs (up to 10 images) via the provider API.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-0eed7dbbf510b8de248179d90edafaad</guid>
+    </item>
+    <item>
+      <title>FLUX.2-pro</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>FLUX.2-pro is a Black Forest Labs image generation model that accepts text and image prompts and outputs a single image. It supports multi-reference inputs (up to 8 images) and is described as more grounded in real-world knowledge with enhanced performance and flexibility.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-887ad83342b70228b2e85fa9627ca92c</guid>
+    </item>
+    <item>
+      <title>FLUX.1-Kontext-pro</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>FLUX.1-Kontext-pro is an in-context image generation and editing model supporting text+image input and single-image output. It highlights character consistency and advanced editing, and can be used via both the Image API endpoints and the BFL provider API.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-68bb038df61c4d1241231f562d0d944a</guid>
+    </item>
+    <item>
+      <title>FLUX-1.1-pro</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>FLUX-1.1-pro is a text-to-image generation model focused on fast inference and strong prompt adherence. It can be used via the Image API and the BFL provider API and is positioned as competitively priced and scalable.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-d4c90eb12b2a0274abcf0cf97a8c4bd9</guid>
+    </item>
+    <item>
+      <title>Cohere-rerank-v4.0-pro</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>Cohere-rerank-v4.0-pro is a text classification (rerank) model for ranking and relevance scoring across many languages. It returns JSON and is available via Global Standard in all regions and via managed compute.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-c145522d4f82b17232bd17567ddc15bc</guid>
+    </item>
+    <item>
+      <title>Cohere-rerank-v4.0-fast</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>Cohere-rerank-v4.0-fast is a speed-optimized reranking model for text classification and relevance ranking across many languages. It returns JSON and is available via Global Standard in all regions and via managed compute.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-a77201f1133589db41d96298ffda230d</guid>
+    </item>
+    <item>
+      <title>Cohere-command-a</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>Cohere-command-a is a chat-completion model optimized for tasks such as reasoning, summarization, and question answering. It supports tool calling and can return either text or JSON, with Global Standard availability across all regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-5baba62e906e79da67e9b81eaa98c840</guid>
+    </item>
+    <item>
+      <title>embed-v-4-0</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>embed-v-4-0 is a Cohere embeddings model that supports both text and image inputs and outputs vectors in multiple dimensionalities. It is available via Global Standard across all regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-a55bddcfd9b4ff8567673bcfe6f448c0</guid>
+    </item>
+    <item>
+      <title>DeepSeek-V3.2-Speciale</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>DeepSeek-V3.2-Speciale is a chat-completion model with reasoning content designed for step-by-step reasoning tasks. It supports English and Chinese and is available via Global Standard across all regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-e8f4ce4d563a6fbfb21138fc228a5b7e</guid>
+    </item>
+    <item>
+      <title>DeepSeek-V3.2</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>DeepSeek-V3.2 is a chat-completion model with reasoning content aimed at reasoning-intensive workloads. It supports English and Chinese and is available via Global Standard across all regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-28e8e5323b06e68cf9c9ad9f79125eeb</guid>
+    </item>
+    <item>
+      <title>DeepSeek-V3.1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>DeepSeek-V3.1 is a chat-completion model with reasoning content that supports tool calling. It targets language, scientific reasoning, and coding tasks and is available via Global Standard across all regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-cd40178d5b8c265bab627e619eecdb10</guid>
+    </item>
+    <item>
+      <title>DeepSeek-R1-0528</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>DeepSeek-R1-0528 is a reasoning-focused chat-completion model with very large input/output token limits. It is available in both Global Standard and Global Provisioned managed deployments across all regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-950876cec60ea6a7964187cabe33b153</guid>
+    </item>
+    <item>
+      <title>DeepSeek-V3-0324</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>DeepSeek-V3-0324 is a chat-completion model that supports tool calling and returns text or JSON. It is available in both Global Standard and Global Provisioned managed deployments across all regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-a230375265ad2bb52c0f62d1c7f312ad</guid>
+    </item>
+    <item>
+      <title>DeepSeek-R1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>DeepSeek-R1 is a reasoning-focused chat-completion model with very large input/output token limits. It is available in both Global Standard and Global Provisioned managed deployments across all regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-f7d79f342a93114cdb2af702dcc5ba59</guid>
+    </item>
+    <item>
+      <title>Llama-4-Maverick-17B-128E-Instruct-FP8</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>Llama-4-Maverick-17B-128E-Instruct-FP8 is a Meta multimodal chat-completion model supporting text and images with a very large context window. It is available via Global Standard across all regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-a3bda6bae463ebdd8d75d697542f1750</guid>
+    </item>
+    <item>
+      <title>Llama-3.3-70B-Instruct</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>Llama-3.3-70B-Instruct is a Meta chat-completion model for instruction-following text generation. It supports multiple languages and is available via Global Standard across all regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-97d06434c085ed09497b317af1c6d420</guid>
+    </item>
+    <item>
+      <title>MAI-DS-R1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>MAI-DS-R1 is a Microsoft chat-completion model with reasoning content and very large input/output token limits. It is available via Global Standard across all regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-f7a04ba4824199dea1646fc57768949b</guid>
+    </item>
+    <item>
+      <title>mistral-document-ai-2512</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>mistral-document-ai-2512 is a Mistral image-to-text model for extracting text from images or PDF pages. It supports up to 30 pages and a 30MB PDF limit, returning text/JSON/Markdown, and is available in Global Standard (all regions) and Data Zone Standard (US and EU).</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-0ccea5152879718ae332058f7b7d1f05</guid>
+    </item>
+    <item>
+      <title>mistral-document-ai-2505</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>mistral-document-ai-2505 is a Mistral image-to-text model for document extraction from images or PDFs. It supports up to 30 pages and a 30MB PDF limit, returning text/JSON/Markdown, and is available in Global Standard (all regions) and Data Zone Standard (US and EU).</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-c4bb09ee126518d96a8c43970872df1b</guid>
+    </item>
+    <item>
+      <title>Mistral-Large-3</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>Mistral-Large-3 is a multimodal chat-completion model that accepts text and images and supports tool calling. It returns text or JSON and is available in Global Standard (all regions) and Data Zone Standard (US and EU).</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-6b67f3ffc8f56af34207123327ccb8d9</guid>
+    </item>
+    <item>
+      <title>Kimi-K2.5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>Kimi-K2.5 is a Moonshot AI multimodal reasoning model that accepts text and image input and produces text output with reasoning content. It supports tool calling and is available via Global Standard across all regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-f8f198fcbd0d4bdd1a3c605f364ac709</guid>
+    </item>
+    <item>
+      <title>Kimi-K2-Thinking</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>Kimi-K2-Thinking is a Moonshot AI reasoning model positioned as the most capable open-source thinking model variant. It supports tool calling and is available via Global Standard across all regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-2609f7b2c90d228a70e37927be87d733</guid>
+    </item>
+    <item>
+      <title>grok-4</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>grok-4 is an xAI chat-completion model designed for enterprise use cases such as extraction, coding, summarization, and agentic applications. It supports tool calling and requires registration for access, with Global Standard availability across all regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-3ef9aadb6a5ad1747bd59fbb877d5acd</guid>
+    </item>
+    <item>
+      <title>grok-4-fast-reasoning</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>grok-4-fast-reasoning is an xAI chat-completion model variant optimized for fast reasoning with text and image input. It supports tool calling and is available in Global Standard (all regions) and Data Zone Standard (US).</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-1935a8da3e6c8825c19603fd91469555</guid>
+    </item>
+    <item>
+      <title>grok-4-fast-non-reasoning</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>grok-4-fast-non-reasoning is an xAI chat-completion model variant optimized for fast non-reasoning workloads with text and image input. It supports tool calling and is available in Global Standard (all regions) and Data Zone Standard (US).</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-b409fe07fca241da8ae1c7b8c5a1b64e</guid>
+    </item>
+    <item>
+      <title>grok-code-fast-1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>grok-code-fast-1 is an xAI chat-completion model optimized for coding use cases. It supports tool calling, requires registration for access, and is available via Global Standard across all regions.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-d0f7d27c20079fbf3fad20865af6e43e</guid>
+    </item>
+    <item>
+      <title>grok-3</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>grok-3 is an xAI chat-completion model supporting tool calling and large input/output token limits. It is available in Global Standard (all regions) and Data Zone Standard (US).</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-fcc3cfa5069124f5fefe55d925cdb7da</guid>
+    </item>
+    <item>
+      <title>grok-3-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>grok-3-mini is a smaller xAI chat-completion model variant with tool calling and large token limits. It is available in Global Standard (all regions) and Data Zone Standard (US).</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-044e18f46b35e24a910c5d4d42e6b1de</guid>
+    </item>
+    <item>
+      <title>gpt-4</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>GPT-4 models are available for use with the Chat Completions API and appear in multiple versions including preview and turbo variants. They are listed as available for Assistants and provisioned deployments depending on region and version.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-1b1ae706971632ada5f6db3654eda451</guid>
+    </item>
+    <item>
+      <title>gpt-4-32k</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-4-32k is a GPT-4 variant with an extended context window, listed for Assistants and provisioned deployments. Availability depends on region and deployment type.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-181ba628b2f3c9315646f377f63b51bc</guid>
+    </item>
+    <item>
+      <title>gpt-35-turbo</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-35-turbo is a chat model listed for Assistants and provisioned deployments with multiple version identifiers. Availability varies by region and deployment type as shown in the Assistants and provisioned tables.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-0ef268bbb60fede63f44cabec1c77724</guid>
+    </item>
+    <item>
+      <title>gpt-35-turbo-16k</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>gpt-35-turbo-16k is a larger-context variant of gpt-35-turbo listed for Assistants standard deployment in select regions. It is identified by a specific version and region availability table entries.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-4160b08fb59b53ffe6c2f93cedf025f4</guid>
+    </item>
+    <item>
+      <title>Ministral-3B (preview)</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>Ministral-3B (preview) is listed as a fine-tuning model option with global training support but not supported in standard regions for fine-tuning. It is a text-to-text model with unknown training example context length and output limits in the table.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-8f5cf772ad4e8e50048054408071c416</guid>
+    </item>
+    <item>
+      <title>Qwen-32B (preview)</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure</link>
+      <description>Qwen-32B (preview) is listed as a fine-tuning model option with global training support but not supported in standard regions for fine-tuning. It is a text-to-text model with an 8,000 token input limit and 32,000 token output limit per the fine-tuning table.</description>
+      <pubDate>2026-02-27T00:00:00Z</pubDate>
+      <guid isPermaLink="false">azure-foundry-model-e71ae95e967a213c54b0f2d0d43a32ef</guid>
     </item>
   </channel>
 </rss>
